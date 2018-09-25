@@ -1,0 +1,21 @@
+{
+    "name": "gpcrocker/php5-skeleton",
+    "description": "A basic skeleton for OOP PHP5",
+    "type": "project",
+    "require": {
+        "vlucas/phpdotenv": "^2.5",
+        "monolog/monolog": "^1.23"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Graham Crocker"
+        }
+    ],
+    "autoload": {
+	"psr-4": {
+            "Gpcrocker\\": "app"
+        }
+    },
+    "minimum-stability": "stable"
+}
